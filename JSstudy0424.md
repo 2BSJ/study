@@ -10,8 +10,22 @@
 1. 반대로 매우 나쁜 아이디어로는 프로그래밍 모델이 전역변수에 기초하고 있다는 것이다.
 ```
 --------
-`프로그래밍 언어 대부분은 강력한 데이터 타입 체크를 요구한다.  `  
-이러한 경향은 강력한 타입 체크를 해야 컴파일러가 컴파일 시간에 가능한 많은 오류를 찾을 수 있다는 이론에 근거 한다.
---------
+`프로그래밍 언어 대부분은 강력한 데이터 타입 체크를 요구한다.`  
+
+ 이러한 경향은 강력한 타입 체크를 해야 컴파일러가 컴파일 시간에 가능한 많은 오류를 찾을 수 있다는 이론에 근거 한다.
+
+---------
+
+```js
+<html><body><pre><script src="program.js">
+</script></pre></body></html>
+
+document.writeln('Hello, world!');
+
+Function.prototype.method = function (name, func)
+{
+this.prototype[name] = func;
+return this;};
+```
 
 modified 20:7
