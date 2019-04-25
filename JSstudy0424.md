@@ -28,4 +28,4 @@ this.prototype[name] = func;
 return this;};
 ```
 
-modified 20:7
+
